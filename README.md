@@ -12,17 +12,17 @@ Neste projeto, analisamos o desempenho das escolas públicas de Nova York no SAT
 - Linguagens: Python (Pandas, NumPy)
 - Dados: schools.csv (contém médias das pontuações do SAT por escola)
 - Análises Estatísticas: Média, desvio padrão, ordenação de valores
-
+  
 **Principais Análises e Resultados**
 
 **Escolas com melhor desempenho em Matemática**
  - Foi estabelecido um limite de 80% da pontuação máxima (640/800) para identificar as melhores escolas em matemática.
  - As escolas com maior média foram ordenadas de forma decrescente.
- - 
+
 **As 10 melhores escolas com base no SAT total**
  - A soma das médias de leitura, matemática e escrita foi calculada para cada escola.
  - As 10 escolas com melhor desempenho geral foram selecionadas.
- - 
+
 **Distrito com maior variação nas pontuações do SAT**
  - Agrupamos as escolas por borough (distrito de NYC) e calculamos média e desvio padrão das pontuações totais.
  - O distrito com o maior desvio padrão foi identificado, indicando grande desigualdade entre as escolas dessa região.
